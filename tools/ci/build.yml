@@ -1,0 +1,31 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch build toolchain
+        run: bash tools/setup-toolchain.sh
+
+      - name: Unit tests (engine + converter)
+        run: bash tools/test-calc.sh
+
+      - name: Build signed release APK
+        run: bash tools/build-apk.sh
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: M3E-Calc-release
+          path: "*.apk"

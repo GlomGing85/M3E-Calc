@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M3E Calc</string>
+
+    <!-- Navigation / destinations -->
+    <string name="nav_history">History</string>
+    <string name="nav_converter">Converter</string>
+    <string name="nav_advanced">Advanced functions</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_about">About</string>
+    <string name="nav_thanks">Special thanks</string>
+    <string name="nav_downloads">Download manager</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_back">Back</string>
+    <string name="cd_more">More options</string>
+    <string name="cd_clear">Clear</string>
+    <string name="cd_close">Close</string>
+    <string name="cd_backspace">Delete last character, hold to clear</string>
+    <string name="cd_expression">Expression</string>
+    <string name="cd_result">Result</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="clear">Clear</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="apply">Apply</string>
+    <string name="reset">Reset</string>
+    <string name="undo">Undo</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="copied_result">Result copied to the clipboard</string>
+    <string name="copied_expression">Expression copied to the clipboard</string>
+
+    <!-- Advanced panel -->
+    <string name="advanced_title">Advanced</string>
+
+    <!-- History -->
+    <string name="history_search">Search history</string>
+    <string name="history_empty">No calculations yet</string>
+    <string name="history_empty_body">Everything you work out on the keypad is stored here, on this device only.</string>
+    <string name="history_no_match">No matching calculations</string>
+    <string name="history_use_result">Use this result on the keypad</string>
+    <string name="history_copy_result">Copy result</string>
+    <string name="history_copy_expression">Copy expression</string>
+    <string name="history_delete">Delete</string>
+    <string name="history_deleted">Calculation deleted</string>
+    <string name="history_clear_all">Clear all history</string>
+    <string name="history_clear_all_body">This removes every stored calculation from this device. It cannot be undone.</string>
+    <string name="history_cleared">Cleared %1$d calculations</string>
+    <string name="history_retention">How much to keep</string>
+    <string name="history_retention_body">Older calculations are discarded automatically once the limit is reached.</string>
+    <string name="history_keep_n">Keep the last %1$d</string>
+
+    <!-- Converter -->
+    <string name="converter_input">Value to convert</string>
+    <string name="converter_output">Converted value</string>
+    <string name="converter_swap">Swap units</string>
+    <string name="converter_from">Convert from</string>
+    <string name="converter_to">Convert to</string>
+    <string name="converter_edit_input">Edit value</string>
+    <string name="converter_edit_input_body">Type a number or an expression such as 2×1024.</string>
+    <string name="converter_saved">Saved: %1$s %2$s</string>
+    <string name="converter_nothing">Nothing to convert yet</string>
+    <string name="converter_recent">Recent conversions</string>
+    <string name="converter_recent_body">Tap an entry to load it back into the converter.</string>
+    <string name="converter_recent_empty">No conversions yet.</string>
+    <string name="converter_clear_recent">Clear recent conversions</string>
+    <string name="converter_recent_cleared">Recent conversions cleared</string>
+    <string name="converter_edit_rates">Edit currency rates</string>
+
+    <!-- Currency rates -->
+    <string name="rates_body">Rates are expressed per 1 USD and are stored on this device. They are never refreshed automatically.</string>
+    <string name="rates_updated_at">Rates last set %1$s</string>
+    <string name="rates_never_updated">Rates have not been set yet</string>
+    <string name="rate_for">Rate for %1$s</string>
+    <string name="rate_hint">How many of this currency equal 1 USD</string>
+    <string name="rate_invalid">Enter a number greater than zero</string>
+    <string name="rates_reset">Restore default rates</string>
+    <string name="rates_reset_body">Replaces every stored rate with the reference table bundled with the app.</string>
+    <string name="rates_reset_done">Reference rates restored</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Appearance</string>
+    <string name="mode_system">System</string>
+    <string name="mode_light">Light</string>
+    <string name="mode_dark">Dark</string>
+    <string name="settings_theme">Theme</string>
+    <string name="settings_theme_switch">Change colour source</string>
+    <string name="theme_dynamic">Dynamic</string>
+    <string name="theme_purple">Purple</string>
+    <string name="theme_dynamic_hint">Colours follow your wallpaper. Tap to switch to the built-in Purple scheme.</string>
+    <string name="theme_dynamic_unavailable">Dynamic colour needs Android 12 or newer. Using the Purple scheme.</string>
+    <string name="settings_buttons">Buttons</string>
+    <string name="settings_press_effect">Press effect</string>
+    <string name="settings_press_preview">Preview button</string>
+    <string name="settings_haptics">Haptic feedback</string>
+    <string name="settings_calculation">Calculation</string>
+    <string name="angle_deg">Degrees</string>
+    <string name="angle_rad">Radians</string>
+    <string name="settings_precision">Decimal places</string>
+    <string name="settings_separator">Thousands separator</string>
+    <string name="settings_history">History</string>
+    <string name="settings_keep">Keep the last</string>
+    <string name="settings_data">Data</string>
+    <string name="settings_storage_summary">%1$d calculations and %2$d conversions stored on this device.</string>
+
+    <!-- About -->
+    <string name="about_version">Version %1$s (%2$d)</string>
+    <string name="about_built">Built %1$s</string>
+    <string name="about_dynamic_yes">Dynamic colour available on this device</string>
+    <string name="about_dynamic_no">Dynamic colour unavailable, Purple scheme in use</string>
+    <string name="about_check_updates">Check for updates</string>
+    <string name="about_github">Github</string>
+    <string name="about_logo_hint">M3E Calc — a Material 3 Expressive calculator</string>
+    <string name="about_license">Released under the MIT licence, version %1$s. No analytics, no accounts, no data leaves your device.</string>
+    <string name="about_icons">Icons: Material Symbols Rounded, a subset of the Google icon font.</string>
+    <string name="about_no_browser">No browser to open github.com/%1$s</string>
+
+    <!-- Special thanks -->
+    <string name="thanks_icon">Thanks</string>
+    <string name="thanks_heading">Thank you</string>
+    <string name="thanks_body">This app is a small thing built on a lot of other people\'s work.</string>
+    <string name="thanks_material_title">The Material Design team</string>
+    <string name="thanks_material_body">For Material 3, the Expressive motion and component guidance, and the Material Symbols icon font this app ships.</string>
+    <string name="thanks_aosp_title">The Android Open Source Project</string>
+    <string name="thanks_aosp_body">For the platform, the framework views and the dynamic colour palette this app draws from.</string>
+    <string name="thanks_kotlin_title">The Kotlin team</string>
+    <string name="thanks_kotlin_body">For a language that makes a screen like the keypad a pleasure to write.</string>
+    <string name="thanks_users_title">You</string>
+    <string name="thanks_users_body">For installing it, and for reporting the things that break. Issues on GitHub are how this app gets better.</string>
+    <string name="thanks_share">Share app</string>
+    <string name="thanks_share_text">M3E Calc — a Material 3 Expressive calculator for Android: %1$s</string>
+    <string name="thanks_share_unavailable">Nothing on this device can share a link</string>
+
+    <!-- Download manager -->
+    <string name="downloads_current">Installed: %1$s (%2$d)</string>
+    <string name="downloads_status_unknown">No update check yet.</string>
+    <string name="downloads_checking">Checking GitHub for a newer release…</string>
+    <string name="downloads_no_releases">No releases have been published for this repository yet.</string>
+    <string name="downloads_up_to_date">You are on the latest release (%1$s).</string>
+    <string name="downloads_update_available">Update available: %1$s (%2$s)</string>
+    <string name="downloads_check_failed">Update check failed: %1$s</string>
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_empty">No downloads yet</string>
+    <string name="downloads_empty_body">Updates you download from GitHub appear here until you install or delete them.</string>
+    <string name="downloads_progress">%1$s of %2$s (%3$d%%)</string>
+    <string name="downloads_progress_unknown">Downloading… %1$s</string>
+    <string name="downloads_ready">%1$s · %2$s</string>
+    <string name="downloads_failed">Failed: %1$s</string>
+    <string name="downloads_finished">Downloaded %1$s</string>
+    <string name="downloads_install">Install</string>
+    <string name="downloads_open">Open</string>
+    <string name="downloads_delete">Delete download</string>
+    <string name="downloads_deleted">Deleted %1$s</string>
+    <string name="downloads_install_failed">Nothing on this device can install an APK</string>
+    <string name="downloads_already_downloaded">That file is already in the list</string>
+    <string name="downloads_clear_finished">Clear finished</string>
+    <string name="downloads_cleared">Cleared %1$d finished downloads</string>
+    <string name="downloads_open_folder">Show storage location</string>
+    <string name="downloads_folder">Downloads are kept in %1$s</string>
+
+    <plurals name="history_count">
+        <item quantity="one">%1$d calculation</item>
+        <item quantity="other">%1$d calculations</item>
+    </plurals>
+</resources>
