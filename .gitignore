@@ -1,0 +1,26 @@
+# Build output
+build/
+dist/
+out/
+*.apk
+*.ap_
+*.aab
+
+# Toolchain cache (downloaded by tools/setup-toolchain.sh, defaults to /tmp)
+.toolchain/
+
+# Signing material - never commit keys
+keystore/
+*.jks
+*.keystore
+keystore.properties
+
+# IDE
+.idea/
+.gradle/
+*.iml
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
